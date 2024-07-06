@@ -15,5 +15,6 @@ public class DBConnectionUtilTest {
     void connection() { //null이 아니면 테스트 성공
         Connection connection = DBConnectionUtil.getConnection();
         assertThat( connection ).isNotNull();
+
     }
 }
